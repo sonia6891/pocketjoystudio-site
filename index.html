@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pocket Joy Studio｜口袋裡的小幫手</title>
+<meta name="description" content="Pocket Joy Studio 是台灣的獨立 App 工作室，做輪班排班、提醒繳費、記錄人生、看 AI 額度、查職缺、存 ETF 的小 App。">
+<link rel="canonical" href="https://pocketjoystudio.com/">
+<link rel="alternate" hreflang="zh-Hant" href="https://pocketjoystudio.com/">
+<link rel="alternate" hreflang="en" href="https://pocketjoystudio.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://pocketjoystudio.com/en/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pocket Joy Studio｜口袋裡的小幫手">
+<meta property="og:description" content="台灣的獨立 App 工作室：喵的，又要上班了、提醒喵、喵途、額度雷達、職缺體檢、投資袋著走。">
+<meta property="og:image" content="https://pocketjoystudio.com/assets/img/og.jpg">
+<meta property="og:url" content="https://pocketjoystudio.com/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.png">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+  // 第一次來、瀏覽器不是中文：轉到英文版（之後按語言切換會記住）
+  (function () {
+    try {
+      if (localStorage.getItem('pjs-lang')) return;
+      var l = (navigator.language || '').toLowerCase();
+      if (l && l.indexOf('zh') !== 0) location.replace('en/');
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/img/logo.jpg" alt="" width="36" height="36">Pocket Joy Studio</a>
+    <nav class="langs" aria-label="語言">
+      <a href="./" aria-current="page" onclick="try{localStorage.setItem('pjs-lang','zh')}catch(e){}">繁中</a>
+      <a href="en/" onclick="try{localStorage.setItem('pjs-lang','en')}catch(e){}">EN</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <img class="logo" src="assets/img/logo.jpg" alt="Pocket Joy Studio 標誌" width="132" height="132">
+    <h1>Pocket Joy Studio</h1>
+    <p>把生活裡的小麻煩，收進口袋裡。</p>
+    <span class="stitch" aria-hidden="true"></span>
+  </div>
+</section>
+
+<section id="apps">
+  <div class="wrap">
+    <h2>我們的 App</h2>
+    <p class="lead">每一個都只做好一件事，打開就會用。</p>
+    <div class="apps">
+
+      <article class="app">
+        <div class="head"><img class="icon" src="assets/icons/meowshift.png" alt="" width="76" height="76">
+          <div><h3>喵的，又要上班了</h3><p class="en">Meowshift</p></div></div>
+        <p class="desc">輪班族的排班月曆：班表、鬧鐘、加班費、發薪日一次看清楚。</p>
+        <div class="tags"><span class="tag">iPhone</span><span class="tag">Android</span></div>
+        <div class="links">
+          <a class="btn" href="https://meowshift.pocketjoystudio.com/">官網</a>
+          <a class="btn ghost" href="https://apps.apple.com/tw/app/id6817588985" rel="noopener">App Store</a>
+          <a class="btn ghost" href="https://play.google.com/store/apps/details?id=com.lumilab.meowwork" rel="noopener">Google Play</a>
+        </div>
+      </article>
+
+      <article class="app">
+        <div class="head"><img class="icon" src="assets/icons/quotaradar.png" alt="" width="76" height="76">
+          <div><h3>額度雷達</h3><p class="en">QuotaRadar</p></div></div>
+        <p class="desc">每個 AI 還剩多少、幾點恢復，一眼掃完。</p>
+        <div class="tags"><span class="tag">iPhone</span><span class="tag soon">Android 即將上架</span></div>
+        <div class="links">
+          <a class="btn" href="https://quotaradar.pocketjoystudio.com/">官網</a>
+          <a class="btn ghost" href="https://apps.apple.com/tw/app/id6836609602" rel="noopener">App Store</a>
+        </div>
+      </article>
+
+      <article class="app">
+        <div class="head"><img class="icon" src="assets/icons/jobcheck.png" alt="" width="76" height="76">
+          <div><h3>職缺體檢</h3><p class="en">台灣限定</p></div></div>
+        <p class="desc">投履歷前，先幫職缺做個體檢：查公司違規、薪資工時與求職風險。</p>
+        <div class="tags"><span class="tag">iPhone</span><span class="tag soon">Android 即將上架</span></div>
+        <div class="links">
+          <a class="btn" href="https://jobcheck.pocketjoystudio.com/">官網</a>
+          <a class="btn ghost" href="https://apps.apple.com/tw/app/id6823847793" rel="noopener">App Store</a>
+        </div>
+      </article>
+
+      <article class="app">
+        <div class="head"><img class="icon" src="assets/icons/remindcat.png" alt="" width="76" height="76">
+          <div><h3>提醒喵</h3><p class="en">RemindCat</p></div></div>
+        <p class="desc">訂閱、帳單、行程到期前提醒你；還能把 AI 管家拉進 LINE 群組。</p>
+        <div class="tags"><span class="tag soon">即將上架</span><span class="tag">iPhone</span><span class="tag">Android</span><span class="tag">LINE</span></div>
+        <div class="links">
+          <a class="btn" href="https://remindcat.pocketjoystudio.com/">官網</a>
+        </div>
+      </article>
+
+      <article class="app">
+        <div class="head"><img class="icon" src="assets/icons/meowmoir.png" alt="" width="76" height="76">
+          <div><h3>喵途</h3><p class="en">Meowmoir</p></div></div>
+        <p class="desc">手繪風格的人生時間線，小貓途途陪你把人生一刻一刻釘下來。</p>
+        <div class="tags"><span class="tag soon">即將上架</span><span class="tag">iPhone</span><span class="tag">Android</span></div>
+        <div class="links">
+          <a class="btn" href="https://meowmoir.pocketjoystudio.com/">官網</a>
+        </div>
+      </article>
+
+      <article class="app">
+        <div class="head"><img class="icon" src="assets/icons/investtogo.png" alt="" width="76" height="76">
+          <div><h3>投資袋著走</h3><p class="en">InvestToGo</p></div></div>
+        <p class="desc">把存 ETF 變成養成遊戲：定期定額、配息月曆、到價提醒一次到位。</p>
+        <div class="tags"><span class="tag soon">即將上架</span><span class="tag">iPhone</span></div>
+        <div class="links">
+          <a class="btn" href="https://investtogo.pocketjoystudio.com/">官網</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <div class="wrap">
+    <h2>關於我們</h2>
+    <p class="lead">Pocket Joy Studio 是台灣的獨立 App 工作室。我們做小而好用的 App，把排班、繳費、記錄、求職、存錢這些日常小事，變得輕鬆一點。有問題或建議，歡迎寫信給我們。</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>聯絡我們：<a href="mailto:sonia@pocketjoystudio.com">sonia@pocketjoystudio.com</a></span>
+    <span>© 2026 Pocket Joy Studio</span>
+  </div>
+</footer>
+</body>
+</html>
