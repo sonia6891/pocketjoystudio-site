@@ -15,5 +15,5 @@
 | 投資袋著走 | https://investtogo.pocketjoystudio.com/ |
 
 - **App 上架或下架時要改**：兩個 `index.html` 裡那張卡片的標籤（`tag soon`「即將上架」）和商店按鈕。
-- 圖：`assets/img/logo.jpg`、`hero.jpg` 來自工作室的刺繡布章大頭貼和 X 橫幅 A；`assets/icons/` 是各 App 的圖示縮成 192px；`og.jpg` 是分享預覽圖。
+- 圖（App 圖示都要用 GitHub 上最新的版本，本機資料夾可能落後）：`assets/img/logo.jpg`、`hero.jpg` 來自工作室的刺繡布章大頭貼和 X 橫幅 A；`assets/icons/` 是各 App 的圖示縮成 192px；`og.jpg` 是分享預覽圖。
 - 沒有外部字型、沒有追蹤碼、不需要 build。
